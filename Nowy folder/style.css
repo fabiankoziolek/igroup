@@ -1,185 +1,170 @@
-body
-{
-	background-image:url(bck.png);
+body {
+    background-image: url(bck.png);
 }
 
-#container
-{
-	margin-left:auto;
-	margin-right:auto;
-	width:1300px;
-	height:600px;
-	
-	font-family: 'Quicksand', sans-serif;
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 600px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#leftMe {
+
+    float: left;
+    height: 300px;
+    width: 150px;
+}
+#logo {
+    width: 1000px;
+    float: left;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#header {
+    border: 2px solid #000000;
+    transition: .2s;
+    font-size: 75px;
+    margin-top: 100px;
+    text-align: center;
+    width: 500px;
+    color: #FF3232;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rightMe {
+    height: 300px;
+    width: 100px;
+    float: left;
+}
+
+.button {
+    transition: transform .2s; /* Animation */
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
+.button:hover {
+    transform: scale(1.5);
+    color: #FF946C;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+#header:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+#socialmenu {
+
+    margin-top: 20px;
+    height: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social {
+    text-align: center;
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
 
 }
-#leftMe
-{
-	
-	float:left;
-	height:300px;
-	width:150px;
-}
-#logo
-{
-	width:1000px;
-	
-	float:left;
-}
-img
-{
 
-	width:300px;
-	height:300px;
+a:link {
+    color: black;
 }
-#header
-{
-	border: 2px solid #000000;
-	transition: .2s;
-	font-size:75px;
-	margin-top:100px;
-	text-align:center;
-	width:500px;
-	color:#FF3232;
-	margin-left:auto;
-	margin-right:auto;
-	
-}
-#menu
-{
-	
-	margin-top:40px;
-	font-size:25px;
-	font-weight:700;
-	width:880px;
-	margin-left:auto;
-	margin-right:auto;
-}
-#rightMe
-{
-	height:300px;
-	width:100px;
-	
-	float:left;
-}
-.button
-{
-	transition: transform .2s; /* Animation */
-	text-align:center;
-	padding:10px;
-	float:left;
-	width:200px;
-	height:50px;
-}
-.button:hover
-{
-	transform: scale(1.5);
-	color:#FF946C;
-	cursor:pointer;
-	
-	border-bottom:none;
-}
-#header:hover
-{
-	color:gray;
-	cursor:pointer;
-}
- 
 
-#socialmenu
-{
-	
-	margin-top:20px;
-	height:100px;
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
+a:hover {
+    color: #FF946C;
 }
-.social
-{
-	text-align:center;
-	float:left;
-	height:100px;
-	width:100px;
-	padding:50px;
-	
-}
-a:link
-{
-	color:black;
-}
-a:hover
-{
-	color:#FF946C;
-}
-a:visited
-{
-	color:black;
-}
-a.titlelink
-{
-	transition:transform .2s;
-	text-decoration:none;
-}
-a.titlelink:hover
-{
-	color:#FF946C;
-}
-a.titlelink2
-{
-	color:#FF3232;
-	text-decoration:none;
-}
-a.titlelink2:hover
-{
-	color:black;
-}
-#tekst
-{
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:50px;
-	width:800px;
-	text-align:justify;
-	font-size:19px;
-	color:black;
-}
-ul 
-{
-	list-style-type:none;
-	padding:0;
-	margin:0;
-	display:none;
-}
-.social:hover > ul 
-{
-	display:block;
-}
-ul>li
-{
-	background-color:#FFFC00;
-	position:relative;
-	z-index:100;
-}
-#footer
-{
-	width:880px;
-	height:200px;
-	font-size:40px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
 
-	
+a:visited {
+    color: black;
 }
-#favlist
-{
-	text-align:center;
-	font-size:20px;
+
+a.titlelink {
+    transition: transform .2s;
+    text-decoration: none;
 }
-span
-{
-	font-size:20px;
-	font-weight:700;
+
+a.titlelink:hover {
+    color: #FF946C;
+}
+
+a.titlelink2 {
+    color: #FF3232;
+    text-decoration: none;
+}
+
+a.titlelink2:hover {
+    color: black;
+}
+
+#tekst {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 800px;
+    text-align: justify;
+    font-size: 19px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.social:hover > ul {
+    display: block;
+}
+
+ul > li {
+    background-color: #FFFC00;
+    position: relative;
+    z-index: 100;
+}
+
+#footer {
+    width: 880px;
+    height: 200px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#favlist {
+    text-align: center;
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 700;
 }
 
