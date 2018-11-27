@@ -107,7 +107,7 @@ a.titlelink2:hover {
     color: black;
 }
 
-#tekst {
+.tekst {
     margin: 50px auto auto;
     text-align: justify;
     font-size: 19px;
