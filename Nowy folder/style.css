@@ -5,21 +5,15 @@ body {
 #container {
     margin-left: auto;
     margin-right: auto;
-    width: 1300px;
+    width: 900px;
     height: 600px;
     font-family: 'Quicksand', sans-serif;
 }
 
-#leftMe {
-
-    float: left;
-    height: 300px;
-    width: 150px;
-}
 #logo {
-    width: 1000px;
-    float: left;
+    margin:auto;
 }
+
 img {
     width: 300px;
     height: 300px;
@@ -46,16 +40,10 @@ img {
     margin-right: auto;
 }
 
-#rightMe {
-    height: 300px;
-    width: 100px;
-    float: left;
-}
-
 .button {
     transition: transform .2s; /* Animation */
-    text-align: center;
     padding: 10px;
+    text-align: center;
     float: left;
     width: 200px;
     height: 50px;
@@ -74,7 +62,6 @@ img {
 }
 
 #socialmenu {
-
     margin-top: 20px;
     height: 100px;
     width: 800px;
@@ -88,7 +75,6 @@ img {
     height: 100px;
     width: 100px;
     padding: 50px;
-
 }
 
 a:link {
@@ -122,10 +108,7 @@ a.titlelink2:hover {
 }
 
 #tekst {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    width: 800px;
+    margin: 50px auto auto;
     text-align: justify;
     font-size: 19px;
     color: black;
@@ -155,7 +138,6 @@ ul > li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
 }
 
 #favlist {
